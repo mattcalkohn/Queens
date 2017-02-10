@@ -11,7 +11,6 @@ int solutions = 0; // keeps trach of number of solutions
  *  through eval_helper
  */
 void eval(const int n) {
-
 	int board[n * n];
 	initialize_board(n, board);
 
@@ -103,7 +102,6 @@ void print_board(const int n, int board[]) {
 
 
 int main() {
-
 	cout << "How many queens? ";
 
 	int queens;
